@@ -1,3 +1,3 @@
-raw = input('Enter number:')
-num = raw
-print(num)
+X = int(input())
+Y =int(input())
+print((max(X, Y) % min(X, Y))+1)

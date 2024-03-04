@@ -1,3 +1,5 @@
-import math
-a, b, c = map(float, input("Введите значения сторон:").split())
-anglea=
+# 30 degrees = 60 minutes
+n = float(input("Введите градусы:"))
+hours = (n//30)
+min =  (n%30*2)
+print("Прошло:", hours,"часов", min,"минут")
